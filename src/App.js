@@ -7,7 +7,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Statistics from './Statistics';
 import Skills from './Skills';
-import About from './About';
+
 
 function App() {
 
@@ -16,7 +16,6 @@ function App() {
       <Navbar />
      
       <Home />
-      {/* <About/> */}
       <TechStack />
       <Skills/>
       <Projects />

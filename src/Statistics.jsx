@@ -23,11 +23,7 @@ const Statistics = () => {
                         <Img src="https://github-readme-stats.vercel.app/api?username=preetibildani&show_icons=true&locale=en&theme=tokyonight" alt="preetibildani" />
                         <Img src="https://github-readme-streak-stats.herokuapp.com/?user=preetibildani&theme=tokyonight" alt="preetibildani" />
                     </SimpleGrid>
-                    <Flex width={["70%", "70%", "60%", "20%"]}  margin={"auto"} justifyContent={"center"} alignItems={"center"} textAlign={"center"} alignSelf={"center"}>
-                        <Center>
-                            <Img  margin={'auto'} src="https://github-readme-stats.vercel.app/api/top-langs?username=preetibildani&show_icons=true&locale=en&theme=tokyonight" alt="preetibildani" />
-                        </Center>
-                    </Flex>
+                    
                 </Box>
             </Fade>
         </Box>

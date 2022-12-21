@@ -26,13 +26,14 @@ export const Navbar = () => {
                <h4 className='Name' >Preeti Bildani</h4>
                 <nav ref={navRef} style={{ color: "white" }} >
                     <Link activeClass="active" to="Home" spy={true} smooth={true} ><a className='hvr-underline-from-center' href="#">Home</a></Link>
+                    <Link to="about" spy={true} smooth={true} ><a className='hvr-underline-from-center' href="#">About Me</a></Link>
                     <Link to="techStack" spy={true} smooth={true} ><a className='hvr-underline-from-center' href="#">Tech Stack</a></Link>
                     <Link to="Skills" spy={true} smooth={true} ><a className='hvr-underline-from-center' href="#">Skills</a></Link>
                     <Link to="Projects" spy={true} smooth={true} ><a className='hvr-underline-from-center' href="#">Project</a></Link>
                     <Link to="Contact" spy={true} smooth={true} ><a className='hvr-underline-from-center' href="#">Contact</a></Link>
                     {/* <Link to='https://drive.google.com/uc?export=download&id=1ASY7FmYH6WRHWDINaDbA1FlvejsjpvDh' download className='hvr-underline-from-center'>Resume </Link> */}
 
-                    <a href="preeti.pdf" target={"_blank"} download=".preeti.pdf" className='hvr-underline-from-center'><Button color={ "white"} bg={"#5fc49a"}  onClick={handleResume}>Resume</Button></a>
+                    <a href="preeti.pdf" target={"_blank"} download=".preeti.pdf" className='hvr-underline-from-center'><Button color={ "black"} bg={"#5fc49a"}  onClick={handleResume}>Resume</Button></a>
 
                     {/* {bg === 'white' ? <IconButton borderRadius={"50%"} bg={color} colorScheme={bg === 'white' ? "#181830" : 'white'} onClick={toggleColorMode} icon={<FaMoon />} /> : <IconButton bg={color} colorScheme={bg === 'white' ? "#181830" : 'white'} onClick={toggleColorMode} borderRadius={"50%"} icon={<FaSun />} />} */}
                 </nav>

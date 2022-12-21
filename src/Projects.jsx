@@ -49,7 +49,7 @@ const Projects = () => {
                 alt: "redux"
             },],
             github: 'https://github.com/Preetibildani/average-pig-3056',
-            live: ''
+            live: 'https://average-pig-3056.vercel.app/'
         },
         {
             title: "Mytheresa Clone",
@@ -70,7 +70,7 @@ const Projects = () => {
                 alt: "redux"
             },],
             github: 'https://github.com/omkundu/affable-fang-3484',
-            live: ''
+            live: 'https://elegant-empanada-5cef80.netlify.app/'
         },
         {
             title: "leadIq Clone",
@@ -107,9 +107,9 @@ const Projects = () => {
             <VStack paddingY={"30px"} width={"70%"} margin={"auto"} gap={"50px"}>
                 {projectsArr.map((elem) => {
                     return <HStack className='hvr-grow-shadow' >
-                        <SimpleGrid columns={[1, 1, 1, 2]} padding={"40px"} justifyContent={"center"} alignItems={"center"} gap={"20px"} border={"3px solid"} borderColor={color} boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" borderRadius={"15px"}>
+                        <SimpleGrid columns={[1, 1, 1, 2]} padding={{lg:"40px",sm:"2px"}} justifyContent={"center"} alignItems={"center"} gap={"20px"} border={"3px solid"} borderColor={color} boxShadow="rgba(0, 0, 0, 0.35) 0px 5px 15px" borderRadius={"15px"}>
                             <Fade left cascade >
-                                <Box overflowY={"hidden"} height={"300px"}>
+                                <Box overflowY={"hidden"} height={{lg:"300px",md:"200px"}}>
                                     <Img border="3px solid" borderColor={color} borderRadius={"10px"} width={"2500px"} src={elem.banner} alt={elem.title} />
                                 </Box>
                             </Fade>
