@@ -69,7 +69,7 @@ function Home() {
                                  I am doing my graduation in Bachelor of Business Administration from Sant Gadge Baba University. Amravati, Maharashtra.
                                  My current studies are in the MERN Full Stack Programme at Masai School, where I have learned that good apps lead to good business, and I enjoy building websites using different technology stacks in a problem-solving approach.</Text>
                                 <Box className='btn-grad' borderRadius={"5px"} border={"1px solid"} borderColor={color}>
-                                <a href="preeti.pdf" target={"_blank"} download="preeti.pdf" >Resume</a>
+                                <a href="Preeti-Bildani-Resume.pdf" target={"_blank"} download="Preeti-Bildani-Resume.pdf" >Resume</a>
                                 </Box>
                             </Fade>
                         </VStack>

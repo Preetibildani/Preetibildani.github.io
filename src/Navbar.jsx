@@ -33,7 +33,7 @@ export const Navbar = () => {
                     <Link to="Contact" spy={true} smooth={true} ><a className='hvr-underline-from-center' href="#">Contact</a></Link>
                     {/* <Link to='https://drive.google.com/uc?export=download&id=1ASY7FmYH6WRHWDINaDbA1FlvejsjpvDh' download className='hvr-underline-from-center'>Resume </Link> */}
 
-                    <a href="preeti.pdf" target={"_blank"} download=".preeti.pdf" className='hvr-underline-from-center'><Button color={ "black"} bg={"#5fc49a"}  onClick={handleResume}>Resume</Button></a>
+                    <a href="Preeti-Bildani-Resume.pdf" target={"_blank"} download=".Preeti-Bildani-Resume.pdf" className='hvr-underline-from-center'><Button color={ "black"} bg={"#5fc49a"}  onClick={handleResume}>Resume</Button></a>
 
                     {/* {bg === 'white' ? <IconButton borderRadius={"50%"} bg={color} colorScheme={bg === 'white' ? "#181830" : 'white'} onClick={toggleColorMode} icon={<FaMoon />} /> : <IconButton bg={color} colorScheme={bg === 'white' ? "#181830" : 'white'} onClick={toggleColorMode} borderRadius={"50%"} icon={<FaSun />} />} */}
                 </nav>
